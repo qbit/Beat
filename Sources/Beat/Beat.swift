@@ -13,6 +13,6 @@ public struct Beat {
     }
     
     public func text() -> String {
-        return "\(db)"
+        return String(format: "%03d", db)
     }
 }
