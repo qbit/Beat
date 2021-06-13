@@ -8,6 +8,7 @@ final class BeatTests: XCTestCase {
         
         XCTAssertGreaterThan(b.int(), 0)
         XCTAssertLessThan(b.int(), 1000)
+        XCTAssertEqual(b.int(), 997)
         XCTAssertEqual(b.text(), "997")
         
         // now beat
